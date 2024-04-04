@@ -1,0 +1,23 @@
+.user-item {
+    width: 100%;
+    padding: 20px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    pointer-events: none;
+}
+
+.user-item-name {
+    color: #343030;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.user-item-email {
+    color: #020618;
+    font-size: 16px;
+    font-weight: bold;
+}

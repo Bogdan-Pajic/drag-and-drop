@@ -1,0 +1,16 @@
+.drag-item {
+    cursor: move;
+    background-color: #f6f6f6;
+    box-shadow: 3px 3px 6px #b4b4b4;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.drag-item:last-child {
+    margin-bottom: 0;
+}
+
+.drag-item-dragged-over {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
